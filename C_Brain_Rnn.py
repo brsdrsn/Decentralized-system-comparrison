@@ -28,7 +28,7 @@ class CBrain(Brain):
 
 class CController(ActorController, ABC):
     """
-        Centralized controller for the brain
+    Centralized controller for the brain
     """
     _actor: Actor
 
